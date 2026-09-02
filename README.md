@@ -1,7 +1,7 @@
 # Atividade: Algoritmo de Bresenham
 
 **Disciplina:** Computação Gráfica e geoprocessamento de imagens 
-**Tema:** Algoritmo de Bresenham para rasterização de linhas  
+**Tema:** Algoritmo de Bresenham para construções de escadas
 **Autor:** Eduardo dos santos prado
 
 ---
@@ -43,8 +43,32 @@ A atividade pede para testar o algoritmo com dois pares de pontos:
 ```python
 bresenham(0, 0, 5, 2)
 ```
+Saida
+
+```python
+     0  1  2  3  4  5
+ 5  .  .  .  .  .  .
+ 4  .  .  .  .  .  .
+ 3  .  .  .  .  .  .
+ 2  .  .  .  .  #  #
+ 1  .  .  #  #  .  .
+ 0  #  #  .  .  .  .
+```
+
 
 ### 2. Linha de `(0, 0)` a `(2, 5)` → **Escada mais vertical**
 
 ```python
 bresenham(0, 0, 2, 5)
+```
+Saida 
+
+```python
+      0 1 2
+5     . . #
+4     . . #
+3     . # .
+2     . # .
+1     # . .
+0     # . .
+```
