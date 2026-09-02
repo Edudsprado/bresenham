@@ -44,7 +44,7 @@ A atividade pede para testar o algoritmo com dois pares de pontos:
 bresenham(0, 0, 5, 2)
 ```
 
-### 1. Linha de `(0, 0)` a `(2, 5)` → **Escada mais vertical**
+### 2. Linha de `(0, 0)` a `(2, 5)` → **Escada mais vertical**
 
 ```python
 bresenham(0, 0, 2, 5)
